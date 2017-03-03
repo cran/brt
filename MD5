@@ -1,0 +1,17 @@
+8dee708b8d8cc128244ab15089c25c7e *DESCRIPTION
+2c18f79edb12b5aa59732bf542c1bec7 *NAMESPACE
+44ababf1b96bc5a197a0886ee80490db *R/dtavg.R
+7e1c5d9ef038b179a274bebbde282f6b *R/logmeanexp.R
+ff6c7db71c62f20fc8fdb2cfdff81127 *R/logsumexp.R
+5bb9606037c4ba389b64adeef2f93cb1 *R/ptavg.R
+fff4b92210af62f99d034b653d230eb2 *R/tpval.R
+1463c24585a34571d8354825ee3ce185 *R/tpvalavg.R
+87749886254cd1c01662e4e9c766324b *R/tpvalint.R
+bb51148a661e682d6461801e599748df *R/tpvaltreat.R
+73ba2248d31e104d142a38113ec8f417 *man/logmeanexp.Rd
+853c734de7dd29c65b533a0219fb7fcc *man/logsumexp.Rd
+82929b7aa091b786a645efc991d6d617 *man/tavg.Rd
+a1862bc8d567967c81d5dcf3b54b451a *man/tpval.Rd
+38ca672a58cfb7d481f047c7033b71b3 *man/tpvalavg.Rd
+6af1656d11d7e8d3c2c53506f7e7a544 *man/tpvalint.Rd
+3c08a91b3cadad74e88c1dd7639c0f9f *man/tpvaltreat.Rd
