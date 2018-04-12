@@ -12,8 +12,4 @@ logmeanexp(x)
 \description{
 Mean of Numbers in Log-Scale
 }
-\examples{
-log(mean(exp(seq_len(3))))
-logmeanexp(seq_len(3))
-}
 \keyword{math}

@@ -1,10 +1,6 @@
 # vim: set noexpandtab tabstop=2:
 #' @rdname tavg
-#' @export
 #' @import ggplot2 stats
-#' @examples
-#' q=seq(from=-10, to=10, length.out=100)
-#' ggplot2::qplot(q, dtavg(q, df=3, hi=3), geom='line')
 dtavg=function(x
 	, df
 	, hi=1

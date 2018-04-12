@@ -30,8 +30,6 @@ ptavg(x, df, hi = 1, lo = -hi, n = as.integer(ceiling(abs(hi - lo) * 10)),
 Average of the Student t Distribution
 }
 \examples{
-q=seq(from=-10, to=10, length.out=100)
-ggplot2::qplot(q, dtavg(q, df=3, hi=3), geom='line')
 x=seq(from=-10, to=10, length.out=100)
 ggplot2::qplot(x, ptavg(x, df=3, hi=3), geom='line')
 }
