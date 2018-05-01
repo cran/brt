@@ -20,6 +20,20 @@ brt.test =
 function(x, y, hi, lo=-hi, var.equal=T, log_pvalue=F){
   if(all(hi==0, lo==0)){
     out=t.test(x=x, y=y, var.equal=var.equal)
+  }else if(any(sum(is.na(x))==length(x), sum(is.na(y))==length(y))){
+    out=data.frame(mu_x=NA
+                  , mu_y=NA
+                  , se=NA
+                  , df=NA
+                  , brt.pvalue=NA
+                  )
+  }else if(all(sd(x, na.rm=T)==0, sd(y, na.rm=T)==0)){
+    out=data.frame(mu_x=if(sd(x, na.rm=T)==0){NA}else{mean(x)}
+                  , mu_y=if(sd(y, na.rm=T)==0){NA}else{mean(y)}
+                  , se=0
+                  , df=NA
+                  , brt.pvalue=NA
+                  )
   }else{
     t1 = x[!is.na(x)]; t2 = y[!is.na(y)]
     var_x = var(t1); var_y = var(t2)

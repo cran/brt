@@ -1,6 +1,6 @@
-e32493d6123fea4cd694e2962d301a75 *DESCRIPTION
+01f5382c0d5db940ee325240256e8f97 *DESCRIPTION
 3d311404707f16bea76800672cf384c2 *NAMESPACE
-51cee4b13ab446d35d19d0ceb7b3a3f7 *R/brt.test.R
+7f6be63b22427725e5f553889584473d *R/brt.test.R
 5de44c8e64e2e010a4e649be633dc629 *R/dtavg.R
 4054759c2108eaca9513c864c108b012 *R/logmeanexp.R
 77913536444ccfafafb72d645219dc1e *R/logsumexp.R
@@ -9,6 +9,10 @@ fff4b92210af62f99d034b653d230eb2 *R/tpval.R
 1463c24585a34571d8354825ee3ce185 *R/tpvalavg.R
 87749886254cd1c01662e4e9c766324b *R/tpvalint.R
 bb51148a661e682d6461801e599748df *R/tpvaltreat.R
+a0ff1a7ce8dec3250df079c164a885ab *build/vignette.rds
+0bb9a44bdd26d396e7712d6b54b8e8a4 *inst/doc/brt.R
+a64885fd22b835c3e5f3494bd776cd11 *inst/doc/brt.html
+04370b02b2661642fbee021cd3a7883e *inst/doc/brt.rmd
 620026652a1ebe6fb1e01fc1efb6a054 *man/brt.test.Rd
 d22cf357f9a26992cd6b2519855c16a7 *man/logmeanexp.Rd
 8fa8818eba79aca4bd2629050bea51cf *man/logsumexp.Rd
@@ -17,3 +21,4 @@ a1862bc8d567967c81d5dcf3b54b451a *man/tpval.Rd
 38ca672a58cfb7d481f047c7033b71b3 *man/tpvalavg.Rd
 6af1656d11d7e8d3c2c53506f7e7a544 *man/tpvalint.Rd
 3c08a91b3cadad74e88c1dd7639c0f9f *man/tpvaltreat.Rd
+04370b02b2661642fbee021cd3a7883e *vignettes/brt.rmd
